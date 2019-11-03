@@ -18,9 +18,9 @@ function Balloon(pic) {
     this.left = randomRange(0, 1000);
     this.top = randomRange(0, 700);
     // 气球 x,y 速度,x,y方向的速度大小决定了气球的最终的方向
-    this.speedX = randomRange(-6, 6);
+    this.speedX = randomRange(-5, 5);
     // this.speedX = 0;
-    this.speedY = randomRange(-6, 6);
+    this.speedY = randomRange(-5, 5);
 }
 
 // 给气球设置宽高背景等 css 属性，并添加到body 中，才能显示出来
